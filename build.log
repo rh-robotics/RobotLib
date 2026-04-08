@@ -1,0 +1,286 @@
+Initialized native services in: /Users/john.muhlestein/.gradle/native
+Initialized jansi services in: /Users/john.muhlestein/.gradle/native
+Received JVM installation metadata from '/Library/Java/JavaVirtualMachines/amazon-corretto-17.jdk/Contents/Home': {JAVA_HOME=/Library/Java/JavaVirtualMachines/amazon-corretto-17.jdk/Contents/Home, JAVA_VERSION=17.0.6, JAVA_VENDOR=Amazon.com Inc., RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=17.0.6+10-LTS, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=17.0.6+10-LTS, VM_VENDOR=Amazon.com Inc., OS_ARCH=aarch64}
+Found daemon DaemonInfo{pid=13405, address=[2fca4a40-30a2-48ea-a7f5-3c1497d64353 port:64727, addresses:[/127.0.0.1]], state=Idle, lastBusy=1775667967738, context=DefaultDaemonContext[uid=2a85bf0f-d451-4087-9978-91fda22faafd,javaHome=/Users/john.muhlestein/.sdkman/candidates/java/21.0.7-tem,daemonRegistryDir=/Users/john.muhlestein/.gradle/daemon,pid=13405,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx1024M,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+Java home is different.
+Wanted: DefaultDaemonContext[uid=null,javaHome=/Library/Java/JavaVirtualMachines/amazon-corretto-17.jdk/Contents/Home,daemonRegistryDir=/Users/john.muhlestein/.gradle/daemon,pid=18119,idleTimeout=null,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx1024M,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+Actual: DefaultDaemonContext[uid=2a85bf0f-d451-4087-9978-91fda22faafd,javaHome=/Users/john.muhlestein/.sdkman/candidates/java/21.0.7-tem,daemonRegistryDir=/Users/john.muhlestein/.gradle/daemon,pid=13405,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx1024M,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+
+  Looking for a different daemon...
+Found daemon DaemonInfo{pid=15920, address=[b6da0d19-6315-48b4-8c56-bc9c00c4d508 port:50968, addresses:[/127.0.0.1]], state=Idle, lastBusy=1775665362375, context=DefaultDaemonContext[uid=7d3baeab-ed10-4829-9c48-da617f07a3d2,javaHome=/Users/john.muhlestein/.antigravity/extensions/redhat.java-1.53.0-darwin-arm64/jre/21.0.10-macosx-aarch64,daemonRegistryDir=/Users/john.muhlestein/.gradle/daemon,pid=15920,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx1024M,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+Java home is different.
+Wanted: DefaultDaemonContext[uid=null,javaHome=/Library/Java/JavaVirtualMachines/amazon-corretto-17.jdk/Contents/Home,daemonRegistryDir=/Users/john.muhlestein/.gradle/daemon,pid=18119,idleTimeout=null,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx1024M,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+Actual: DefaultDaemonContext[uid=7d3baeab-ed10-4829-9c48-da617f07a3d2,javaHome=/Users/john.muhlestein/.antigravity/extensions/redhat.java-1.53.0-darwin-arm64/jre/21.0.10-macosx-aarch64,daemonRegistryDir=/Users/john.muhlestein/.gradle/daemon,pid=15920,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx1024M,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+
+  Looking for a different daemon...
+The client will now receive all logging from the daemon (pid: 18079). The daemon log file: /Users/john.muhlestein/.gradle/daemon/8.7/daemon-18079.out.log
+Starting 3rd build in daemon [uptime: 1 mins 2.83 secs, performance: 99%, GC rate: 0.00/s, heap usage: 0% of 1 GiB]
+Using 10 worker leases.
+Now considering [/Users/john.muhlestein/projects/robotics/robotbase/RobotLib] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Settings evaluated using settings file '/Users/john.muhlestein/projects/robotics/robotbase/RobotLib/settings.gradle'.
+Projects loaded. Root project using build file '/Users/john.muhlestein/projects/robotics/robotbase/RobotLib/build.gradle'.
+Included projects: [root project 'RobotLib', project ':lib']
+
+> Configure project :
+Evaluating root project 'RobotLib' using build file '/Users/john.muhlestein/projects/robotics/robotbase/RobotLib/build.gradle'.
+
+> Configure project :lib
+Evaluating project ':lib' using build file '/Users/john.muhlestein/projects/robotics/robotbase/RobotLib/lib/build.gradle'.
+All projects evaluated.
+Task name matched 'build'
+Selected primary task 'build' from project :
+Tasks to be executed: [task ':lib:compileJava', task ':lib:processResources', task ':lib:classes', task ':lib:jar', task ':lib:assemble', task ':lib:compileTestJava', task ':lib:processTestResources', task ':lib:testClasses', task ':lib:test', task ':lib:check', task ':lib:build']
+Tasks that were excluded: []
+Resolve mutations for :lib:compileJava (Thread[Execution worker,5,main]) started.
+:lib:compileJava (Thread[Execution worker,5,main]) started.
+
+> Task :lib:compileJava FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':lib:compileJava'.
+> Could not resolve all files for configuration ':lib:compileClasspath'.
+   > Could not resolve org.firstinspires.ftc:Inspection:11.1.0.
+     Required by:
+         project :lib
+      > No matching variant of org.firstinspires.ftc:Inspection:11.1.0 was found. The consumer was configured to find a library for use during compile-time, compatible with Java 17, preferably in the form of class files, preferably optimized for standard JVMs, and its dependencies declared externally but:
+          - Variant 'releaseVariantReleaseApiPublication' declares a library for use during compile-time, and its dependencies declared externally:
+              - Incompatible because this component declares a component, with the library elements 'aar' and the consumer needed a component, preferably in the form of class files
+              - Other compatible attributes:
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+                  - Doesn't say anything about its target Java version (required compatibility with Java 17)
+          - Variant 'releaseVariantReleaseJavaDocPublication' declares a component for use during runtime, and its dependencies declared externally:
+              - Incompatible because this component declares documentation and the consumer needed a library
+              - Other compatible attributes:
+                  - Doesn't say anything about its elements (required them preferably in the form of class files)
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+                  - Doesn't say anything about its target Java version (required compatibility with Java 17)
+          - Variant 'releaseVariantReleaseRuntimePublication' declares a library for use during runtime, and its dependencies declared externally:
+              - Incompatible because this component declares a component, with the library elements 'aar' and the consumer needed a component, preferably in the form of class files
+              - Other compatible attributes:
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+                  - Doesn't say anything about its target Java version (required compatibility with Java 17)
+          - Variant 'releaseVariantReleaseSourcePublication' declares a component for use during runtime, and its dependencies declared externally:
+              - Incompatible because this component declares documentation and the consumer needed a library
+              - Other compatible attributes:
+                  - Doesn't say anything about its elements (required them preferably in the form of class files)
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+                  - Doesn't say anything about its target Java version (required compatibility with Java 17)
+   > Could not resolve org.firstinspires.ftc:Blocks:11.1.0.
+     Required by:
+         project :lib
+      > No matching variant of org.firstinspires.ftc:Blocks:11.1.0 was found. The consumer was configured to find a library for use during compile-time, compatible with Java 17, preferably in the form of class files, preferably optimized for standard JVMs, and its dependencies declared externally but:
+          - Variant 'releaseVariantReleaseApiPublication' declares a library for use during compile-time, and its dependencies declared externally:
+              - Incompatible because this component declares a component, with the library elements 'aar' and the consumer needed a component, preferably in the form of class files
+              - Other compatible attributes:
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+                  - Doesn't say anything about its target Java version (required compatibility with Java 17)
+          - Variant 'releaseVariantReleaseJavaDocPublication' declares a component for use during runtime, and its dependencies declared externally:
+              - Incompatible because this component declares documentation and the consumer needed a library
+              - Other compatible attributes:
+                  - Doesn't say anything about its elements (required them preferably in the form of class files)
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+                  - Doesn't say anything about its target Java version (required compatibility with Java 17)
+          - Variant 'releaseVariantReleaseRuntimePublication' declares a library for use during runtime, and its dependencies declared externally:
+              - Incompatible because this component declares a component, with the library elements 'aar' and the consumer needed a component, preferably in the form of class files
+              - Other compatible attributes:
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+                  - Doesn't say anything about its target Java version (required compatibility with Java 17)
+          - Variant 'releaseVariantReleaseSourcePublication' declares a component for use during runtime, and its dependencies declared externally:
+              - Incompatible because this component declares documentation and the consumer needed a library
+              - Other compatible attributes:
+                  - Doesn't say anything about its elements (required them preferably in the form of class files)
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+                  - Doesn't say anything about its target Java version (required compatibility with Java 17)
+   > Could not resolve org.firstinspires.ftc:RobotCore:11.1.0.
+     Required by:
+         project :lib
+      > No matching variant of org.firstinspires.ftc:RobotCore:11.1.0 was found. The consumer was configured to find a library for use during compile-time, compatible with Java 17, preferably in the form of class files, preferably optimized for standard JVMs, and its dependencies declared externally but:
+          - Variant 'releaseVariantReleaseApiPublication' declares a library for use during compile-time, and its dependencies declared externally:
+              - Incompatible because this component declares a component, with the library elements 'aar' and the consumer needed a component, preferably in the form of class files
+              - Other compatible attributes:
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+                  - Doesn't say anything about its target Java version (required compatibility with Java 17)
+          - Variant 'releaseVariantReleaseJavaDocPublication' declares a component for use during runtime, and its dependencies declared externally:
+              - Incompatible because this component declares documentation and the consumer needed a library
+              - Other compatible attributes:
+                  - Doesn't say anything about its elements (required them preferably in the form of class files)
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+                  - Doesn't say anything about its target Java version (required compatibility with Java 17)
+          - Variant 'releaseVariantReleaseRuntimePublication' declares a library for use during runtime, and its dependencies declared externally:
+              - Incompatible because this component declares a component, with the library elements 'aar' and the consumer needed a component, preferably in the form of class files
+              - Other compatible attributes:
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+                  - Doesn't say anything about its target Java version (required compatibility with Java 17)
+          - Variant 'releaseVariantReleaseSourcePublication' declares a component for use during runtime, and its dependencies declared externally:
+              - Incompatible because this component declares documentation and the consumer needed a library
+              - Other compatible attributes:
+                  - Doesn't say anything about its elements (required them preferably in the form of class files)
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+                  - Doesn't say anything about its target Java version (required compatibility with Java 17)
+   > Could not resolve org.firstinspires.ftc:RobotServer:11.1.0.
+     Required by:
+         project :lib
+      > No matching variant of org.firstinspires.ftc:RobotServer:11.1.0 was found. The consumer was configured to find a library for use during compile-time, compatible with Java 17, preferably in the form of class files, preferably optimized for standard JVMs, and its dependencies declared externally but:
+          - Variant 'releaseVariantReleaseApiPublication' declares a library for use during compile-time, and its dependencies declared externally:
+              - Incompatible because this component declares a component, with the library elements 'aar' and the consumer needed a component, preferably in the form of class files
+              - Other compatible attributes:
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+                  - Doesn't say anything about its target Java version (required compatibility with Java 17)
+          - Variant 'releaseVariantReleaseJavaDocPublication' declares a component for use during runtime, and its dependencies declared externally:
+              - Incompatible because this component declares documentation and the consumer needed a library
+              - Other compatible attributes:
+                  - Doesn't say anything about its elements (required them preferably in the form of class files)
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+                  - Doesn't say anything about its target Java version (required compatibility with Java 17)
+          - Variant 'releaseVariantReleaseRuntimePublication' declares a library for use during runtime, and its dependencies declared externally:
+              - Incompatible because this component declares a component, with the library elements 'aar' and the consumer needed a component, preferably in the form of class files
+              - Other compatible attributes:
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+                  - Doesn't say anything about its target Java version (required compatibility with Java 17)
+          - Variant 'releaseVariantReleaseSourcePublication' declares a component for use during runtime, and its dependencies declared externally:
+              - Incompatible because this component declares documentation and the consumer needed a library
+              - Other compatible attributes:
+                  - Doesn't say anything about its elements (required them preferably in the form of class files)
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+                  - Doesn't say anything about its target Java version (required compatibility with Java 17)
+   > Could not resolve org.firstinspires.ftc:OnBotJava:11.1.0.
+     Required by:
+         project :lib
+      > No matching variant of org.firstinspires.ftc:OnBotJava:11.1.0 was found. The consumer was configured to find a library for use during compile-time, compatible with Java 17, preferably in the form of class files, preferably optimized for standard JVMs, and its dependencies declared externally but:
+          - Variant 'releaseVariantReleaseApiPublication' declares a library for use during compile-time, and its dependencies declared externally:
+              - Incompatible because this component declares a component, with the library elements 'aar' and the consumer needed a component, preferably in the form of class files
+              - Other compatible attributes:
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+                  - Doesn't say anything about its target Java version (required compatibility with Java 17)
+          - Variant 'releaseVariantReleaseJavaDocPublication' declares a component for use during runtime, and its dependencies declared externally:
+              - Incompatible because this component declares documentation and the consumer needed a library
+              - Other compatible attributes:
+                  - Doesn't say anything about its elements (required them preferably in the form of class files)
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+                  - Doesn't say anything about its target Java version (required compatibility with Java 17)
+          - Variant 'releaseVariantReleaseRuntimePublication' declares a library for use during runtime, and its dependencies declared externally:
+              - Incompatible because this component declares a component, with the library elements 'aar' and the consumer needed a component, preferably in the form of class files
+              - Other compatible attributes:
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+                  - Doesn't say anything about its target Java version (required compatibility with Java 17)
+          - Variant 'releaseVariantReleaseSourcePublication' declares a component for use during runtime, and its dependencies declared externally:
+              - Incompatible because this component declares documentation and the consumer needed a library
+              - Other compatible attributes:
+                  - Doesn't say anything about its elements (required them preferably in the form of class files)
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+                  - Doesn't say anything about its target Java version (required compatibility with Java 17)
+   > Could not resolve org.firstinspires.ftc:Hardware:11.1.0.
+     Required by:
+         project :lib
+      > No matching variant of org.firstinspires.ftc:Hardware:11.1.0 was found. The consumer was configured to find a library for use during compile-time, compatible with Java 17, preferably in the form of class files, preferably optimized for standard JVMs, and its dependencies declared externally but:
+          - Variant 'releaseVariantReleaseApiPublication' declares a library for use during compile-time, and its dependencies declared externally:
+              - Incompatible because this component declares a component, with the library elements 'aar' and the consumer needed a component, preferably in the form of class files
+              - Other compatible attributes:
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+                  - Doesn't say anything about its target Java version (required compatibility with Java 17)
+          - Variant 'releaseVariantReleaseJavaDocPublication' declares a component for use during runtime, and its dependencies declared externally:
+              - Incompatible because this component declares documentation and the consumer needed a library
+              - Other compatible attributes:
+                  - Doesn't say anything about its elements (required them preferably in the form of class files)
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+                  - Doesn't say anything about its target Java version (required compatibility with Java 17)
+          - Variant 'releaseVariantReleaseRuntimePublication' declares a library for use during runtime, and its dependencies declared externally:
+              - Incompatible because this component declares a component, with the library elements 'aar' and the consumer needed a component, preferably in the form of class files
+              - Other compatible attributes:
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+                  - Doesn't say anything about its target Java version (required compatibility with Java 17)
+          - Variant 'releaseVariantReleaseSourcePublication' declares a component for use during runtime, and its dependencies declared externally:
+              - Incompatible because this component declares documentation and the consumer needed a library
+              - Other compatible attributes:
+                  - Doesn't say anything about its elements (required them preferably in the form of class files)
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+                  - Doesn't say anything about its target Java version (required compatibility with Java 17)
+   > Could not resolve org.firstinspires.ftc:FtcCommon:11.1.0.
+     Required by:
+         project :lib
+      > No matching variant of org.firstinspires.ftc:FtcCommon:11.1.0 was found. The consumer was configured to find a library for use during compile-time, compatible with Java 17, preferably in the form of class files, preferably optimized for standard JVMs, and its dependencies declared externally but:
+          - Variant 'releaseVariantReleaseApiPublication' declares a library for use during compile-time, and its dependencies declared externally:
+              - Incompatible because this component declares a component, with the library elements 'aar' and the consumer needed a component, preferably in the form of class files
+              - Other compatible attributes:
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+                  - Doesn't say anything about its target Java version (required compatibility with Java 17)
+          - Variant 'releaseVariantReleaseJavaDocPublication' declares a component for use during runtime, and its dependencies declared externally:
+              - Incompatible because this component declares documentation and the consumer needed a library
+              - Other compatible attributes:
+                  - Doesn't say anything about its elements (required them preferably in the form of class files)
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+                  - Doesn't say anything about its target Java version (required compatibility with Java 17)
+          - Variant 'releaseVariantReleaseRuntimePublication' declares a library for use during runtime, and its dependencies declared externally:
+              - Incompatible because this component declares a component, with the library elements 'aar' and the consumer needed a component, preferably in the form of class files
+              - Other compatible attributes:
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+                  - Doesn't say anything about its target Java version (required compatibility with Java 17)
+          - Variant 'releaseVariantReleaseSourcePublication' declares a component for use during runtime, and its dependencies declared externally:
+              - Incompatible because this component declares documentation and the consumer needed a library
+              - Other compatible attributes:
+                  - Doesn't say anything about its elements (required them preferably in the form of class files)
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+                  - Doesn't say anything about its target Java version (required compatibility with Java 17)
+   > Could not resolve org.firstinspires.ftc:Vision:11.1.0.
+     Required by:
+         project :lib
+      > No matching variant of org.firstinspires.ftc:Vision:11.1.0 was found. The consumer was configured to find a library for use during compile-time, compatible with Java 17, preferably in the form of class files, preferably optimized for standard JVMs, and its dependencies declared externally but:
+          - Variant 'releaseVariantReleaseApiPublication' declares a library for use during compile-time, and its dependencies declared externally:
+              - Incompatible because this component declares a component, with the library elements 'aar' and the consumer needed a component, preferably in the form of class files
+              - Other compatible attributes:
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+                  - Doesn't say anything about its target Java version (required compatibility with Java 17)
+          - Variant 'releaseVariantReleaseJavaDocPublication' declares a component for use during runtime, and its dependencies declared externally:
+              - Incompatible because this component declares documentation and the consumer needed a library
+              - Other compatible attributes:
+                  - Doesn't say anything about its elements (required them preferably in the form of class files)
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+                  - Doesn't say anything about its target Java version (required compatibility with Java 17)
+          - Variant 'releaseVariantReleaseRuntimePublication' declares a library for use during runtime, and its dependencies declared externally:
+              - Incompatible because this component declares a component, with the library elements 'aar' and the consumer needed a component, preferably in the form of class files
+              - Other compatible attributes:
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+                  - Doesn't say anything about its target Java version (required compatibility with Java 17)
+          - Variant 'releaseVariantReleaseSourcePublication' declares a component for use during runtime, and its dependencies declared externally:
+              - Incompatible because this component declares documentation and the consumer needed a library
+              - Other compatible attributes:
+                  - Doesn't say anything about its elements (required them preferably in the form of class files)
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+                  - Doesn't say anything about its target Java version (required compatibility with Java 17)
+   > Could not resolve androidx.appcompat:appcompat:1.2.0.
+     Required by:
+         project :lib
+      > No matching variant of androidx.appcompat:appcompat:1.2.0 was found. The consumer was configured to find a library for use during compile-time, compatible with Java 17, preferably in the form of class files, preferably optimized for standard JVMs, and its dependencies declared externally but:
+          - Variant 'releaseApiPublication' declares a library for use during compile-time, and its dependencies declared externally:
+              - Incompatible because this component declares a component, with the library elements 'aar' and the consumer needed a component, preferably in the form of class files
+              - Other compatible attributes:
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+                  - Doesn't say anything about its target Java version (required compatibility with Java 17)
+          - Variant 'releaseRuntimePublication' declares a library for use during runtime, and its dependencies declared externally:
+              - Incompatible because this component declares a component, with the library elements 'aar' and the consumer needed a component, preferably in the form of class files
+              - Other compatible attributes:
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+                  - Doesn't say anything about its target Java version (required compatibility with Java 17)
+          - Variant 'sourcesElements' declares a component for use during runtime, and its dependencies declared externally:
+              - Incompatible because this component declares documentation and the consumer needed a library
+              - Other compatible attributes:
+                  - Doesn't say anything about its elements (required them preferably in the form of class files)
+                  - Doesn't say anything about its target Java environment (preferred optimized for standard JVMs)
+                  - Doesn't say anything about its target Java version (required compatibility with Java 17)
+
+* Try:
+> Review the variant matching algorithm at https://docs.gradle.org/8.7/userguide/variant_attributes.html#sec:abm_algorithm.
+> No matching variant errors are explained in more detail at https://docs.gradle.org/8.7/userguide/variant_model.html#sub:variant-no-match.
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 334ms
+1 actionable task: 1 executed
+Watched directory hierarchies: [/Users/john.muhlestein/projects/robotics/robotbase/RobotLib]
