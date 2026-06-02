@@ -9,6 +9,7 @@
 plugins {
     // Apply the Android Library plugin
     id 'com.android.library' version '8.3.0'
+    id 'maven-publish'
 }
 
 android {
@@ -47,4 +48,27 @@ dependencies {
 }
 
 apply from: '../build.dependencies.gradle'
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+                groupId = 'org.rowlandhall'
+                artifactId = 'robotlib'
+                version = project.findProperty('version') ?: '0.0.1'
+            }
+        }
+        repositories {
+            maven {
+                name = 'GitHubPackages'
+                url = uri("https://maven.pkg.github.com/${System.getenv('GITHUB_REPOSITORY') ?: 'OWNER/RobotLib'}")
+                credentials {
+                    username = System.getenv('GITHUB_ACTOR')
+                    password = System.getenv('GITHUB_TOKEN')
+                }
+            }
+        }
+    }
+}
 

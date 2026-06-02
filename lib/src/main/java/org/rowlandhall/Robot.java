@@ -35,10 +35,9 @@ public class Robot {
         subsystems.add(s);
     }
 
-    public void controllerUpdate(Gamepad gp1, Gamepad gp2) {
+    public void operatorUpdate(OperatorControl oc) {
         for (Subsystem s : subsystems) {
-            s.controllerUpdate(gp1, gp2);
-        
+            s.operatorUpdate(oc);
         }
     }
 
