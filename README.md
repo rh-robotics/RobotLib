@@ -34,7 +34,7 @@
  ```
  repositories {
     maven {
-        url = uri("https://maven.pkg.github.com/rh_robotics/RobotLib")
+        url = uri("https://maven.pkg.github.com/rh-robotics/RobotLib")
         credentials {
             username = project.findProperty("gpr.user") ?: System.getenv("GITHUB_ACTOR")
             password = project.findProperty("gpr.key") ?: System.getenv("GITHUB_TOKEN")
@@ -44,4 +44,24 @@
 dependencies {
     implementation 'org.rowlandhall:robotlib:1.0.0'
 }
+```
+
+This new repository may need to be added in multiple locations across different gradle.properties files due to some quirks with the way *FTCRobotController* and *TeamCode* projects are organized
+
+#### github access token
+additionally, there is a requirement that when using artifacts from the github token and username to your global gradle properties file
+
+Add your GitHub username and a Personal Access Token (PAT) to your user-level `~/.gradle/gradle`.properties so every project can find them without hardcoding secrets anywhere.
+
+Step 1 — Create a PAT:
+
+- Go to GitHub → Settings → Developer settings → Personal access tokens → Tokens (classic)
+Generate a new token with the read:packages scope
+- Copy the token
+
+Step 2 — Add credentials to your local Gradle properties:
+
+```
+gpr.user=<github username>
+gpr.key=<GITHUB_PAT>
 ```
